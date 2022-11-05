@@ -1,0 +1,25 @@
+body{
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    will-change: 100vh;
+}
+.navbar-nav li a,.navbar-brand {
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+h1,h5{
+    font-weight: bold;
+}
+.nav-item a:hover,.active{
+    background-color: #fff;
+    }
+    .navbar-brand {
+        white-space: unset;
+    }
+    
